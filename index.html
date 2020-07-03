@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+
+    <link rel="stylesheet" href="style.css">    
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <p>Blocs positionning</p>
+    <div class="container">
+        <div class="row text-center bg-primary">
+            <div class="col-sm-12 border border-dark rounded">
+                <p>12 colonnes</p>
+                <div class="row">
+                    <div class="col-sm-2 offset-sm-1 border border-dark rounded">
+                        <p>Coucou</p>
+                    </div>
+                    <div class="col-sm-3 offset-sm-2 border border-dark rounded">
+                        <p>ça</p>
+                    </div>
+                    <div class="col-sm-2 offset-sm-2 border border-dark rounded">
+                        <p>va?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>Imbricated elements</p>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-4 border border-dark rounded align-self-start bg-primary">
+                <p>Nouvel</p>
+            </div>
+            <div class="col-sm-8 border border-dark rounded bg-primary">
+                <p class="font-weight-bold">Exercice</p>
+                <div class="row">
+                    <div class="col-sm-3 border border-dark rounded">
+                        <p>ces</p>
+                    </div>
+                    <div class="col-sm-6 border border-dark rounded">
+                        <p>blocs sont tous</p>
+                    </div>
+                    <div class="col-sm-3 border border-dark rounded">
+                        <p>dans</p>
+                    </div>
+                    <div class="col-sm-4 border border-dark rounded">
+                        <p>la même</p>
+                    </div>
+                    <div class="col-sm-4 border border-dark rounded">
+                        <p>div où est</p>
+                    </div>
+                    <div class="col-sm-4 border border-dark rounded">
+                        <p>inscrit "<strong>Exercice</strong>".</p>
+                    </div>
+                    <div class="col-sm-5 border border-dark rounded">
+                        <p>Comment</p>
+                    </div>
+                    <div class="col-sm-2 border border-dark rounded">
+                        <p>est</p>
+                    </div>
+                    <div class="col-sm-5 border border-dark rounded">
+                        <p>ce possible?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>Change elements order</p>
+    <div class="container">
+        <div class="row text-center bg-primary">
+            <div class="col-sm-12 border border-dark rounded">
+                <p>12 colonnes</p>
+                <div class="row">
+                    <div class="col-sm-2 offset-sm-1 border border-dark rounded">
+                        <p>Bloc 1 de 3</p>
+                    </div>
+                    <div class="col-sm-2 offset-sm-2 border border-dark rounded order-last">
+                        <p>Bloc 2 de 3</p>
+                    </div>
+                    <div class="col-sm-2 offset-sm-2 border border-dark rounded order-second">
+                        <p>Bloc 3 de 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>Practice makes good</p>
+    <div class="container">
+        <div class="row text-center bg-primary">
+            <div class="col-sm-6 border border-dark rounded">
+                <p>6 colonnes</p>
+                <div class="row">
+                    <div class="col-sm-4 border border-dark rounded">
+                        <p>4 colonnes</p>
+                    </div>
+                    <div class="col-sm-4 border border-dark rounded offset-sm-4">
+                        <p>4 colonnes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 border border-dark rounded">
+                <p>6 colonnes</p>
+                <div class="row">
+                    <div class="col-sm-4 border border-dark rounded">
+                        <p>4 colonnes</p>
+                    </div>
+                    <div class="col-sm-8 border border-dark rounded">
+                        <p>8 colonnes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>Responsive layout</p>
+        <h3>Mobile :</h3>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-4 col-md-3">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2 py-2">Logo(1/3)</p>
+                </div>
+                <div class="col-sm-8 col-md-9">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2">Titre (2/3)</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-12">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2">Hero (1/1)</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-4">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2">Zone 1</p>
+                </div>
+            
+                <div class="col-sm-12 col-md-4">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2">Zone 2</p>
+                </div>
+            
+                <div class="col-sm-12 col-md-4">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2">Zone 3</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-8 col-md-6">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2">Zone 5 (1/2)</p>
+                </div>
+                <div class="col-sm-4 col-md-6">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2">Zone 6 (1/2)</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-12">
+                    <p class="border border-dark rounded m-2 bg-secondary py-2">Footer</p>
+                </div>
+            </div>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
